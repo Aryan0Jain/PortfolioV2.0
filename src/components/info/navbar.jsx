@@ -11,7 +11,7 @@ export default function NavBar() {
 		<>
 			<div
 				className={
-					"fixed w-screen h-screen move bg-[#e3cdb5] " +
+					"fixed z-[10000] w-screen h-screen move bg-[#e3cdb5] " +
 					(showNavBar ? "translate-y-0 " : "-translate-y-full ")
 				}
 				ref={menu}

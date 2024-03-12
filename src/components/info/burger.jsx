@@ -3,7 +3,7 @@ import React from "react";
 export default function Burger({ showNavBar, setShowNavBar }) {
 	return (
 		<div
-			className="fixed right-[6%] top-10 w-10 flex flex-col gap-2 cursor-pointer z-20 hover:scale-y-125 transition-all"
+			className="fixed right-[6%] top-10 w-10 flex flex-col gap-2 cursor-pointer z-[11000] hover:scale-y-125 transition-all"
 			onClick={() => setShowNavBar((prev) => !prev)}
 		>
 			<div
