@@ -1,6 +1,6 @@
 import About from "@/components/info/about/about";
 import Contact from "@/components/info/contact/contact";
-import NavBar from "@/components/info/navbar";
+import NavBar from "@/components/navbar/navbar";
 import Projects from "@/components/info/projects/projects";
 
 export default function Info() {

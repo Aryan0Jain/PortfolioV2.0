@@ -33,6 +33,12 @@ export const HOMEPAGE_CONTENT = [
 	},
 ];
 
+export const NAVBAR_TABS = [
+	{ title: "HOME", url: "/" },
+	{ title: "ABOUT", url: "/info#about" },
+	{ title: "PROJECTS", url: "/info#projects" },
+	{ title: "CONTACT", url: "/info#contact" },
+];
 export const PROJECTS_LIST = [
 	{
 		title: "Ixigo Clone",
