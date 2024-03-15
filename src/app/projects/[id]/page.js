@@ -1,6 +1,8 @@
 import { PROJECTS_LIST } from "@/utils";
 import Image from "next/image";
 import React from "react";
+import AwesomeSlider from "react-awesome-slider";
+import "react-awesome-slider/dist/styles.css";
 
 export default function Project({ params }) {
 	const data = PROJECTS_LIST.find((itme) => itme.url === params.id);
@@ -26,6 +28,14 @@ export default function Project({ params }) {
 					);
 				})}
 			</div>
+			<AwesomeSlider
+				animation="foldOutAnimation"
+				cssModule={[coreStyles, animationStyles]}
+			>
+				<div data-src="/path/to/image-0.png" />
+				<div data-src="/path/to/image-1.png" />
+				<div data-src="/path/to/image-2.jpg" />
+			</AwesomeSlider>
 			<div>about the project</div>
 		</div>
 	);
